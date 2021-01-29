@@ -7,13 +7,13 @@ public class DangerousWork {
         Scanner scan = new Scanner(System.in);
 
         System.out.print("How much would you like to earn? ");
-        int earnings = scan.nextInt();
+        int goal = scan.nextInt();
 
         int days = 0;
-        double count = 0.01;
+        double salary = 0.01;
 
-        while (count < earnings) {
-            count *= 2;
+        while (salary < goal) {
+            salary *= 2;
             days += 1;
         }
 
