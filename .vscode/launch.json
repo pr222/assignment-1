@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch PrintCalendar",
+            "request": "launch",
+            "mainClass": "assignment1.PrintCalendar",
+            "projectName": "assignment-1_83bac0c0"
+        },
+        {
+            "type": "java",
             "name": "Launch Hex2Dec",
             "request": "launch",
             "mainClass": "assignment1.Hex2Dec",
